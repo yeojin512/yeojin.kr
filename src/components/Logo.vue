@@ -1,6 +1,12 @@
 <template>
   <h1 class="logo">
     <span class="sr-only">{{ text }}</span>
+    <img
+      aria-hidden="true"
+      class="sr-only"
+      src="../assets/images/img_jeongyeojin_hi.webp"
+      alt=""
+    />
   </h1>
 </template>
 
