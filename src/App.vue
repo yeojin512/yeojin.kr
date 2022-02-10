@@ -93,9 +93,9 @@ export default {
   z-index: 1;
   width: 40px;
   height: 40px;
-  border: 1px solid rgba(var(--text), 0.5);
+  border: 1px solid rgba(var(--text), 0.6);
   font-size: 20px;
-  color: rgba(var(--text), 0.5);
+  color: rgba(var(--text), 0.6);
   text-align: center;
 
   &:hover,

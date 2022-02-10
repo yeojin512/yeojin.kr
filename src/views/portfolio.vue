@@ -601,7 +601,7 @@ export default {
   &__button {
     display: inline-block;
     font-size: 15px;
-    color: rgba(var(--text), 0.5);
+    color: rgba(var(--text), 0.6);
 
     &:hover,
     &:focus {

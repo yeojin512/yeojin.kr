@@ -46,7 +46,7 @@ export default {
 .copyright {
   display: block;
   font-size: 14px;
-  color: var(--point);
+  color: rgba(var(--text), 0.6);
 }
 
 @media all and (max-width: 767px) {

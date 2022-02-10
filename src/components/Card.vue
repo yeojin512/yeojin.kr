@@ -124,7 +124,7 @@ export default {
       border-top: 1px solid rgba(var(--background), 0.15);
       background-color: rgba(var(--background), 0.1);
       font-size: 15px;
-      color: rgba(var(--text), 0.5);
+      color: rgba(var(--text), 0.6);
       text-align: center;
       vertical-align: top;
     }
@@ -271,7 +271,7 @@ export default {
       margin-top: 3px;
       padding-left: 65px;
       font-size: 14px;
-      color: rgba(var(--text), 0.5);
+      color: rgba(var(--text), 0.6);
     }
   }
 }
