@@ -17,12 +17,14 @@
   text-align: center;
 
   &__anchor {
-    color:#ffff00;
+    color: #ffff00;
   }
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  display: block;
+  .browser-upgrade {
+    display: block;
+  }
 }
 
 // screen reader
