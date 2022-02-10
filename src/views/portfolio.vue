@@ -595,7 +595,7 @@ export default {
 <style lang="scss" scoped>
 .tab {
   position: absolute;
-  top: 20px;
+  top: 25px;
   right: 0;
 
   &__button {
@@ -636,7 +636,7 @@ export default {
 
 @media all and (max-width: 767px) {
   .tab {
-    top: 3px;
+    top: 6px;
 
     &__button {
       display: inline-block;
