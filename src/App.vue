@@ -63,7 +63,7 @@ export default {
 .l-wrap {
   max-width: 1600px;
   min-width: 280px;
-  min-height: 100vh;
+  min-height: 800px;
   margin: 0 auto;
   padding-left: 200px;
 }
@@ -82,14 +82,13 @@ export default {
 
 @media all and (max-width: 1023px) {
   .l-container {
-    min-height: calc(100vh - 227px - 129px);
     padding: 30px;
   }
 }
 
 @media all and (max-width: 767px) {
   .l-container {
-    padding: 20px 20px 30px;
+    padding: 0 20px 30px;
   }
 }
 

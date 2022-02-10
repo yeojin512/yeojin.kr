@@ -25,12 +25,6 @@ export default {
   width: 200px;
 }
 
-.copyright {
-  display: block;
-  font-size: 14px;
-  color: var(--point);
-}
-
 @media all and (max-width: 1700px) {
   .l-foot {
     left: 0;
@@ -47,6 +41,12 @@ export default {
     padding: 30px 0;
     text-align: center;
   }
+}
+
+.copyright {
+  display: block;
+  font-size: 14px;
+  color: var(--point);
 }
 
 @media all and (max-width: 767px) {

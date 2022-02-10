@@ -22,22 +22,21 @@ export default {
 
 <style lang="scss" scoped>
 .home-text {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 400px;
   font-size: 90px;
-  white-space: nowrap;
+  text-align: center;
 }
 
 @media all and (max-width: 1023px) {
   .home-text {
+    padding: 200px 0;
     font-size: 60px;
   }
 }
 
 @media all and (max-width: 767px) {
   .home-text {
+    padding: 100px 0;
     font-size: 35px;
   }
 }

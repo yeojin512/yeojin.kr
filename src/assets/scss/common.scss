@@ -79,9 +79,6 @@ html[data-ua*='MSIE'] {
 }
 
 // scrollbar
-html {
-  overflow-y: scroll;
-}
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
