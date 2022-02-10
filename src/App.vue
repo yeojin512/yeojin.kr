@@ -29,13 +29,6 @@ export default {
     LayoutFooter,
   },
 
-  created() {
-    document.documentElement.setAttribute(
-      "data-ua",
-      window.navigator.userAgent
-    );
-  },
-
   methods: {
     scrollToTop() {
       window.scrollTo({
