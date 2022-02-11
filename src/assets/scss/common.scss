@@ -41,29 +41,48 @@
   clip-path: inset(50%);
 }
 
+html {
+  overflow-y:scroll;
+
+  &::before {
+    display: block;
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400% 400%;
+    pointer-events: none;
+    animation: gradient 15s ease infinite;
+    content: "";
+  }
+}
+
 // theme mode
 .mode-dark {
-  background: linear-gradient(-45deg, #1a0836, #201622, #333, #505050);
-  background-attachment: fixed;
-  background-size: 400% 400%;
-  color: rgba(var(--text), 0.8);
-  animation: gradient 15s ease infinite;
-
   --point: #6667ab;
   --text: 255, 255, 255;
   --background: 0, 0, 0;
+
+  color: rgba(var(--text), 0.8);
+
+  &::before {
+    background-image: linear-gradient(-45deg, #1a0836, #201622, #333, #505050);
+  }
 }
 
 .mode-light {
-  background: linear-gradient(-45deg, #f0ede8, #f9f5ff, #fffef3, #fbfbfb);
-  background-attachment: fixed;
-  background-size: 400% 400%;
-  color: rgba(var(--text), 0.6);
-  animation: gradient 15s ease infinite;
-
   --point: #6667ab;
   --text: 0, 0, 0;
   --background: 200, 200, 200;
+
+  color: rgba(var(--text), 0.6);
+
+  &::before {
+    background-image: linear-gradient(-45deg, #f0ede8, #f9f5ff, #fffef3, #fbfbfb);
+  }
 }
 
 @keyframes gradient {
