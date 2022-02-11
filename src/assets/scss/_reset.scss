@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+/*---------------------------------------------
+ reset - Eric Meyer
+ ----------------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -107,6 +110,13 @@ button:focus {
   outline: thin dotted;
 }
 
+/*---------------------------------------------
+ custom - site 별도
+ ----------------------------------------------*/
+a,
+button {
+  transition: color 0.35s ease-in-out;
+}
 
 /*---------------------------------------------
  custom - 현재 사용하지 않음

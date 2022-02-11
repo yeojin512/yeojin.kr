@@ -164,15 +164,14 @@ export default {
     z-index: 920;
     width: 46px;
     height: 46px;
-    border: 1px solid rgba(var(--text), 0.8);
+    border: 1px solid rgba(var(--text), 0.5);
     border-radius: 50%;
     font-size: 32px;
-    color: rgba(var(--text), 0.8);
-    opacity: 0.5;
+    color: rgba(var(--text), 0.5);
 
     &:hover,
     &:focus {
-      opacity: 0.8;
+      color: rgba(var(--text), 0.8);
     }
   }
 
@@ -297,21 +296,20 @@ export default {
   width: 60px;
   height: 60px;
   transform: translateY(-50%);
-  color: var(--point);
-  opacity: 0.8;
+  color: rgba(var(--text), 0.5);
   cursor: pointer;
 
   .svg-inline--fa {
     height: 50px;
   }
 
-  &:disabled {
-    opacity: 0.2;
-  }
-
   &:hover,
   &:focus {
-    opacity: 1;
+    color: rgba(var(--text), 0.8);
+  }
+
+  &:disabled {
+    color: rgba(var(--text), 0.2) !important;
   }
 
   &.slick-prev {
