@@ -54,9 +54,13 @@ table {
 /*---------------------------------------------
  custom
  ----------------------------------------------*/
-*, *:after, *:before {
+* {
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
 }
 
 html {
@@ -77,42 +81,40 @@ table {
   width: 100%;
 }
 
-::-moz-selection {
-  background-color: #6667ab;
-  text-shadow: none;
-}
-
-::selection {
-  background-color: #6667ab;
-  text-shadow: none;
-}
-
 a {
-  background: transparent;
+  background-color: transparent;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
+
+  &:focus {
+    outline: thin dotted;
+  }
 }
 
-a:focus {
-  outline: thin dotted;
-}
-
-button, input[type="button"], input[type="reset"], input[type="submit"] {
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   padding: 0;
   border: 0;
   background: none;
   line-height: normal;
   cursor: pointer;
   -webkit-appearance: button;
-}
 
-button:focus {
-  outline: thin dotted;
+  &:focus {
+    outline: thin dotted;
+  }
 }
 
 /*---------------------------------------------
  custom - site 별도
  ----------------------------------------------*/
+::selection {
+  background-color: #6667ab;
+  text-shadow: none;
+}
+
 a,
 button {
   transition: color 0.35s ease-in-out;
