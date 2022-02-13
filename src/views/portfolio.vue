@@ -122,7 +122,7 @@ export default {
         },
         {
           name: "삼성닷컴 P6 리뉴얼",
-          period: "2019.12,02 ~ 2020.01.31",
+          period: "2019.12.02 ~ 2020.01.31",
           device: "Responsive Web",
           percent: "25%",
           work: ["컴포넌트 제작"],
@@ -354,7 +354,7 @@ export default {
         },
         {
           name: "메리츠화재",
-          period: "2013.12 ~ 2014.01",
+          period: "2013.12 ~ 2014.01.31",
           device: "Hybrid App",
           percent: "100%",
           image: ["img_meritz_1", "img_meritz_2"],
