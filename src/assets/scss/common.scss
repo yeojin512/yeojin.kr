@@ -30,13 +30,15 @@
 // screen reader
 .sr-only {
   overflow: hidden;
+  display: inline-block;
   position: absolute;
   z-index: -1;
   width: 1px;
   height: 1px;
-  padding: 0;
+  margin: 0;
   border: 0;
-  white-space: nowrap;
+  font-size: 1px;
+  line-height: 1px;
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
 }
