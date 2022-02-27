@@ -1,9 +1,9 @@
 <template>
-  <div class="page">
+  <section class="page">
     <page-title as="h2" class="sr-only" title="Home" />
 
     <p class="home-text">반갑습니다 😄</p>
-  </div>
+  </section>
 </template>
 
 <script>

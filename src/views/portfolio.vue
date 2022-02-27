@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <section class="page">
     <page-title as="h2" class="page__title" title="Portfolio" />
 
     <div class="tab" aria-label="보기 선택">
@@ -69,7 +69,7 @@
       :modalName="modalName"
       :modalImage="modalImage"
     />
-  </div>
+  </section>
 </template>
 
 <script>

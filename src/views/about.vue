@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <section class="page">
     <page-title as="h2" class="page__title" title="About" />
 
     <div class="table">
@@ -103,7 +103,7 @@
         </tbody>
       </table>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
