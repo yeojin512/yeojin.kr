@@ -98,14 +98,14 @@ export default {
       portfolioList: [
         {
           name: "롯데ON 통합 검색 운영",
-          period: "2021.08.10 ~ 진행중",
+          period: "2020.08.10 ~ 진행중",
           device: "Desktop, Mobile",
           percent: "-",
           work: ["검색파트 운영"],
         },
         {
           name: "푸본현대생명",
-          period: "2021.03.09 ~ 2021.07.31",
+          period: "2020.03.09 ~ 2020.07.31",
           device: "Desktop, Mobile",
           percent: "25%",
           work: ["가이드라인 제작"],
