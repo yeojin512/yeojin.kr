@@ -98,7 +98,7 @@ export default {
       portfolioList: [
         {
           name: "롯데ON 통합 검색 운영",
-          period: "2020.08.10 ~ 2022.12.31",
+          period: "2020.08.10 ~ 2022.07.31",
           device: "Desktop, Mobile",
           percent: "-",
           work: ["검색파트 운영"],
