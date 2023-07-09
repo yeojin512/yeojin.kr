@@ -97,11 +97,25 @@ export default {
       modalImage: [],
       portfolioList: [
         {
+          name: "현대백화점",
+          period: "2023.07.04 ~ 진행중",
+          device: "Desktop, Mobile",
+          percent: "-",
+          work: ["운영"],
+        },
+        {
           name: "롯데ON 통합 검색 운영",
           period: "2020.08.10 ~ 2022.07.31",
           device: "Desktop, Mobile",
           percent: "-",
           work: ["검색파트 운영"],
+          image: [
+            "img_lotteon_1",
+            "img_lotteon_2",
+            "img_lotteon_3",
+            "img_lotteon_4",
+            "img_lotteon_5",
+          ],
         },
         {
           name: "푸본현대생명",
