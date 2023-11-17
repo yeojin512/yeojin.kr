@@ -137,6 +137,37 @@ html {
   }
 }
 
+// skip navigation
+.skip-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+
+  &__anchor {
+    display: block;
+    width: 0;
+    height: 0;
+    font-size: 1px;
+    opacity: 0;
+
+    &:hover,
+    &:focus,
+    &:active {
+      display: block;
+      width: 100%;
+      height: 40px;
+      background-color: #282a37;
+      font-size: 14px;
+      text-align: center;
+      color: #fff;
+      line-height: 40px;
+      opacity: 1;
+    }
+  }
+}
+
 // page
 .page {
   position: relative;
