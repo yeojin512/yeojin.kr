@@ -128,7 +128,6 @@ export default {
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: -1;
   font-size: 200px;
   line-height: 1;
   font-weight: bold;
