@@ -43,7 +43,7 @@
             v-for="(modalImage, index) in modalImage"
             :key="index"
           >
-            <img :src="require(`@/assets/images/${modalImage}.jpg`)" alt="" />
+            <img :src="require(`@/assets/images/${modalImage}.jpg`)" alt="" loading="lazy "/>
           </div>
         </slick>
       </div>
