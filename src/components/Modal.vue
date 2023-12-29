@@ -201,6 +201,7 @@ export default {
       top: 0;
       left: 0;
       width: 100%;
+      aspect-ratio: 40/107;
     }
   }
 

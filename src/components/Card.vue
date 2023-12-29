@@ -192,6 +192,7 @@ export default {
       top: 0;
       left: 0;
       width: 100%;
+      aspect-ratio: 40/107;
 
       #{$root}__button:hover #{$root}__image,
       #{$root}__button:focus #{$root}__image {
