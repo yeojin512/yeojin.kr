@@ -192,7 +192,9 @@ export default {
       top: 0;
       left: 0;
       width: 100%;
-      aspect-ratio: 40/107;
+      object-position: top;
+      object-fit: cover;
+      aspect-ratio: 1.333441483198146/1;
 
       #{$root}__button:hover #{$root}__image,
       #{$root}__button:focus #{$root}__image {

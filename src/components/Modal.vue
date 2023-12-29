@@ -201,7 +201,9 @@ export default {
       top: 0;
       left: 0;
       width: 100%;
-      aspect-ratio: 40/107;
+      object-position: top;
+      object-fit: cover;
+      aspect-ratio: 1.333333333333333/1;
     }
   }
 
