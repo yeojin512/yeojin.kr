@@ -11,6 +11,7 @@
           class="card__image"
           :src="require(`@/assets/images/${image[0]}.jpg`)"
           :alt="name"
+          loading="lazy"
         />
         <span class="card__more">
           <font-awesome-icon icon="fa-solid fa-plus" />
