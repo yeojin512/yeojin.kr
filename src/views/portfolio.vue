@@ -102,6 +102,17 @@ export default {
           device: "Desktop, Mobile",
           percent: "-",
           work: ["운영"],
+          image: [
+            "img_ehyundai_1",
+            "img_ehyundai_2",
+            "img_ehyundai_3",
+            "img_ehyundai_4",
+            "img_ehyundai_5",
+            "img_ehyundai_6",
+            "img_ehyundai_7",
+            "img_ehyundai_8",
+            "img_ehyundai_9",
+          ],
         },
         {
           name: "롯데ON 통합 검색 운영",
