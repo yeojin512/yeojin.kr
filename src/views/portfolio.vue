@@ -98,7 +98,7 @@ export default {
       portfolioList: [
         {
           name: "현대백화점",
-          period: "2023.07.04 ~ 진행중",
+          period: "2023.07.04 ~ 2024.06.30",
           device: "Desktop, Mobile",
           percent: "-",
           work: ["운영"],
