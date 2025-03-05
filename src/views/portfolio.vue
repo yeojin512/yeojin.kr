@@ -97,6 +97,26 @@ export default {
       modalImage: [],
       portfolioList: [
         {
+          name: "한양대 인터칼리지",
+          period: "2024.09.02 ~ 2025.03.14",
+          device: "Responsive Web",
+          percent: "100%",
+          image: [
+            "img_hanyang_pc_1",
+            "img_hanyang_pc_2",
+            "img_hanyang_pc_3",
+            "img_hanyang_pc_4",
+            "img_hanyang_pc_5",
+            "img_hanyang_pc_6",
+            "img_hanyang_mobile_7",
+            "img_hanyang_mobile_8",
+            "img_hanyang_mobile_9",
+            "img_hanyang_mobile_10",
+            "img_hanyang_mobile_11",
+            "img_hanyang_mobile_12",
+          ],
+        },
+        {
           name: "현대백화점",
           period: "2023.07.04 ~ 2024.06.30",
           device: "Desktop, Mobile",
