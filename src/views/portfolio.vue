@@ -97,6 +97,13 @@ export default {
       modalImage: [],
       portfolioList: [
         {
+          name: "유플러스 디지털 전환 가속화 프로젝트",
+          period: "2025.04.01 ~ ",
+          device: "Desktop, Mobile",
+          percent: "-%",
+          work: ["운영"],
+        },
+        {
           name: "한양대 인터칼리지",
           period: "2024.09.02 ~ 2025.03.14",
           device: "Responsive Web",
